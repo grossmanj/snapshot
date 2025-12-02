@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dotnet tooling
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# Coverage and test results
+TestResult*/
+*.coverage
+*.coveragexml
+coverage/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+*.tmp
