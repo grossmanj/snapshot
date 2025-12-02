@@ -1,5 +1,6 @@
 using CustomerSnapshot.Application.Interfaces;
 using CustomerSnapshot.Domain.Models;
+using CustomerSnapshot.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
 using System.Linq;

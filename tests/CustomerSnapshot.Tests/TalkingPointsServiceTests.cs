@@ -3,6 +3,7 @@ using CustomerSnapshot.Application.Services;
 using CustomerSnapshot.Domain.Models;
 using FluentAssertions;
 using Moq;
+using Xunit;
 
 namespace CustomerSnapshot.Tests;
 
