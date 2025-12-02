@@ -5,6 +5,7 @@ using CustomerSnapshot.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Windows.Forms; // Ensure this using directive is present
+using WinFormsApplication = System.Windows.Forms.Application;
 
 namespace CustomerSnapshot.Desktop;
 
@@ -25,7 +26,7 @@ internal static class Program
             form.InitialCustomerId = initialCustomerId.Value;
         }
 
-        Application.Run(form); // This is correct usage from System.Windows.Forms
+        WinFormsApplication.Run(form); // Explicit alias to avoid namespace conflict
     }
 
     private static IHostBuilder CreateHostBuilder(string[] args) =>
