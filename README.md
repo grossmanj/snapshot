@@ -27,6 +27,16 @@ ASP.NET Core 8 MVC dashboard that summarizes a customer's health and next steps 
    ```
 4. Navigate to `https://localhost:5001/CustomerSnapshot/1` (replace the ID as needed).
 
+## Windows desktop viewer
+For use as a lightweight overlay inside Visma Business (via BIG) without hosting the web app:
+
+1. Update `src/Desktop/appsettings.json` with the ERP connection string (`ErpDatabase`).
+2. On Windows, run the desktop project and optionally pass a starting customer ID:
+   ```bash
+   dotnet run --project src/Desktop/Desktop.csproj -- 1
+   ```
+3. The WinForms window can be launched on a background thread in BIG to float above the ERP client.
+
 ## Tests
 Run the unit tests with:
 ```bash

@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSnapshot.Tests", "tests\CustomerSnapshot.Tests\CustomerSnapshot.Tests.csproj", "{876DB5A9-B929-4A18-ACB8-9FCB2CDEEDDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop", "src\Desktop\Desktop.csproj", "{5E651FB5-06E7-4573-89EA-9F2C9FA8F7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{876DB5A9-B929-4A18-ACB8-9FCB2CDEEDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{876DB5A9-B929-4A18-ACB8-9FCB2CDEEDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{876DB5A9-B929-4A18-ACB8-9FCB2CDEEDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E651FB5-06E7-4573-89EA-9F2C9FA8F7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E651FB5-06E7-4573-89EA-9F2C9FA8F7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E651FB5-06E7-4573-89EA-9F2C9FA8F7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E651FB5-06E7-4573-89EA-9F2C9FA8F7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
