@@ -4,7 +4,7 @@ using CustomerSnapshot.Infrastructure.Repositories;
 using CustomerSnapshot.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Windows.Forms;
+using System.Windows.Forms; // Ensure this using directive is present
 
 namespace CustomerSnapshot.Desktop;
 
@@ -25,7 +25,7 @@ internal static class Program
             form.InitialCustomerId = initialCustomerId.Value;
         }
 
-        Application.Run(form);
+        Application.Run(form); // This is correct usage from System.Windows.Forms
     }
 
     private static IHostBuilder CreateHostBuilder(string[] args) =>
